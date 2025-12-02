@@ -220,7 +220,7 @@ volumes:
 Per a utilitzar aquest fitxer Docker Compose, deseu-lo com a docker-compose.yml i executeu l'ordre següent al mateix directori:
 
 ```
-docker-compose up
+docker compose up
 ```
 
 Aquesta ordre llegeix el fitxer docker-compose.yml, crea els serveis definits i inicia els contenidors. 
@@ -228,13 +228,13 @@ Aquesta ordre llegeix el fitxer docker-compose.yml, crea els serveis definits i 
 Per aturar i eliminar contenidors, utilitzau:
 
 ```
-docker-compose down
+docker compose down
 ```
 
 Per aturar i eliminar contenidors i les seves imatges, utilitzau:
 
 ```
-docker-compose down --rmi all
+docker compose down --rmi all
 ```
 
 Aquest és un exemple bàsic, i pots personalitzar-lo en funció dels requisits de la teva aplicació.
